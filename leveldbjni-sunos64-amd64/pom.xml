@@ -45,6 +45,7 @@
   
   <name>${project.artifactId}</name>
   <description>The leveldbjni solaris 64 native libraries on amd64 machines</description>
+  <url>leveldbjni.fusesource.org</url>
       
   <issueManagement>
     <system>github</system>
@@ -66,6 +67,15 @@
   </scm>
 
   <developers>
+    <developer>
+      <id>chirino</id>
+      <name>Hiram Chirino</name>
+      <email>hiram@hiramchirino.com</email>
+      <url>http://hiramchirino.com</url>
+      <timezone>GMT-5</timezone>
+    </developer>
+
+    <!-- for solaris build only -->
     <developer>
       <id>xinyuzhao</id>
       <name>Xinyu Xinyu</name>
